@@ -5,7 +5,11 @@ description = "Add a short description here"
 authors = [
     { name = "lxizaxi", email = "USERNAME@users.noreply.github.com" }
 ]
-dependencies = []
+dependencies = [
+    "flask~=3.0.2",
+    "flask-cors~=4.0.0",
+    "types-flask-cors~=4.0.0.20240405",
+]
 readme = "README.md"
 requires-python = ">= 3.8"
 
